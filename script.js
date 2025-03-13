@@ -12,7 +12,6 @@ tl.from('li ', {
     duration: 0.4,
     opacity: 0,
     stagger: 0.2,
-    ease: 'bounce.out'
 })
 
 menu.addEventListener("click", () => {
