@@ -28,7 +28,8 @@ h1 {
 }
 
 nav {
-    background-color:  rgba(123, 134, 131, 0.308);
+    will-change: transform;
+    background-color: rgba(123, 134, 131, 0.308);
     width: 25%;
     height: 100%;
     backdrop-filter: blur(10px);
@@ -38,6 +39,7 @@ nav {
 }
 
 i {
+    will-change: transform, opacity;
     display: flex;
     justify-content: flex-end;
     color: #ffff;
@@ -47,15 +49,12 @@ i {
     cursor: pointer;
 }
 
-.close {
-    display: none;
-}
-
 ul {
     list-style: none;
 }
 
 ul li {
+    will-change: transform, opacity;
     padding: 30px 0;
     height: 100%;
 }
